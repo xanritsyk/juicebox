@@ -1,12 +1,27 @@
 {
   "name": "juicebox",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "seed:dev": "nodemon ./db/seed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xanritsyk/juicebox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xanritsyk/juicebox/issues"
+  },
+  "homepage": "https://github.com/xanritsyk/juicebox#readme",
+  "description": ""
 }
